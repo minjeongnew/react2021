@@ -6,7 +6,6 @@ export default function Counter() {
     function onClick() {
         setCount(count+1);
     }
-
     return (
         <div>
             <Title title={`Current Count: ${count}`}></Title>
